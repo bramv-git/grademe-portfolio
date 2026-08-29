@@ -6,6 +6,5 @@ int	scale(int value, int factor)
 		return (0);
 	if(factor == 1)
 		return (value);
-	value = value * factor;
-	return (value);
+	return (value * factor);
 }
